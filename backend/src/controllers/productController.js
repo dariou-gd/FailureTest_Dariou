@@ -1,7 +1,7 @@
 import Product from "../models/Product.js";
 import Category from "../models/Category.js";
 import { generateUniqueBarcode } from "../services/barcodeService.js";
-import { createNotifications } from "./notificationController.js";
+import { createNotification } from "./notificationController.js";
 import { sendCriticalStockAlert, sendOutOfStockAlert } from "../services/emailService.js";
 import Settings from "../models/Settings.js";
 

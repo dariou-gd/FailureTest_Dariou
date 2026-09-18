@@ -13,4 +13,4 @@ router.get('/', getAllOrders);
 router.get('/:id', getOrderById);
 router.put('/:id', updateOrder);
 
-export { router };
+export default router;

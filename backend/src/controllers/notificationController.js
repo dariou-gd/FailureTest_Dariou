@@ -1,4 +1,4 @@
-import { Notification } from '../models/Notification.js';
+import Notification from '../models/Notification.js';
 
 // Get all notifications (sorted by newest first)
 export const getNotifications = async (req, res) => {

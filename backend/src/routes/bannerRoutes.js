@@ -21,4 +21,4 @@ router.route('/:id')
     .put(protect, admin, updateBanner)
     .delete(protect, admin, deleteBanner);
 
-export router;
+export default router;

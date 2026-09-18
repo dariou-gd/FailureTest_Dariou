@@ -1,5 +1,5 @@
 import User from '../models/User.js';
-import generateToken from "../utils/generatToken.js";
+import generateToken from "../utils/generateToken.js";
 import { sendVerificationCode } from "../services/emailService.js";
 import jwt from 'jsonwebtoken';
 import Cart from '../models/Cart.js';

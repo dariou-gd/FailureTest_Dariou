@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config({ quiet: true });
 
 import app from './app.js';
-import connectDB from './config/db';
+import connectDB from './config/db.js';
 import { startInventoryJobs } from './jobs/inventoryJobs.js';
 
 const PORT = process.env.PORT || 5000;
